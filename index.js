@@ -33,7 +33,7 @@ app.post("/sendotp", (req, res) => {
   console.log(req.body.number);
 
   if(!req.body.number){
-    return res.status(500).json({
+    return res.status(502).json({
         error: err
     });
     }else{
