@@ -66,7 +66,7 @@ app.post("/sendotp", (req, res) => {
  
 function sendMessage(number,res) {
   var options = {
-    authorization: 'wxBe5Svz82h7MfyQVXL1pYIqNFGbHsjmlkoA36ndi0aJtUTcWOMCD3JLvRyeFO80g6ZTxSHVlhEUtrmG',
+    authorization: 'wxBe5Svz82h7MfyQVXL1pYIqNFGbHsjmlkoA36ndi0aJtUTcWOMCD3JLvRyeFO80g6ZTxSHVlhEUtrm',
     message: 'This is your One Time Password (OTP) ' + otp + '. Please do not share this OTP with anyone.'	,
     numbers: [number]
   };
